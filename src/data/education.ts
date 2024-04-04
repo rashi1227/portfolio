@@ -1,5 +1,6 @@
 import { TShowCaseListDetatils } from "@/components/ShowCaseList";
 
+
 export const EDUCATION: TShowCaseListDetatils[] = [
   {
     title: "Bachelor Of Engineering in Information Technology",
