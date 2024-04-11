@@ -1,17 +1,6 @@
 import Image from "next/image";
-import {
-  SiExpress,
-  SiSocketdotio,
-  SiPrisma,
-  SiNextdotjs,
-  SiFlask,
-} from "react-icons/si";
-import {
-  FramerMotionIcon,
-  GithubIcon,
-  ReactRouterDomIcon,
-  VitePwaIcon,
-} from "@/components/Icons";
+import { SiExpress, SiNextdotjs } from "react-icons/si";
+import { GithubIcon, ReactRouterDomIcon } from "@/components/Icons";
 import { SkillPillProps } from "@/components/Skills";
 
 export const LANGUAGES: SkillPillProps[] = [

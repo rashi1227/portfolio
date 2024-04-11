@@ -36,7 +36,7 @@ export default function Hero() {
         <div className="mx-auto max-w-7xl">
           <AnimatePresence>
             <FadeUp key="title-main" duration={0.6}>
-              <h1 className="bg-gradient-to-r from-teal-500 to-tera-500 bg-clip-text py-2 text-5xl font-bold text-transparent dark:from-teal-200 dark:to-teal-500 sm:text-6xl md:text-7xl xl:text-8xl">
+              <h1 className="bg-gradient-to-r from-teal-500 to-teal-500 bg-clip-text py-2 text-5xl font-bold text-transparent dark:from-teal-200 dark:to-teal-500 sm:text-6xl md:text-7xl xl:text-8xl">
                 Rashi Aggarwal
               </h1>
               <span className="text-xl font-semibold text-zinc-900 dark:text-zinc-100 md:text-3xl">

@@ -19,8 +19,7 @@ export const EXPERIENCE: TShowCaseListDetatils[] = [
     },
     date: "July 2023 - Aug 2023",
     location: "Online Mode",
-    description:
-      "Build two projects using frontened",
+    description: "Build two projects using frontened",
   },
   // {
   //   title: "Frontend Developer Intern",

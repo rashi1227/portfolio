@@ -1,6 +1,5 @@
 import { TShowCaseListDetatils } from "@/components/ShowCaseList";
 
-
 export const EDUCATION: TShowCaseListDetatils[] = [
   {
     title: "Bachelor Of Engineering in Information Technology",
@@ -10,7 +9,7 @@ export const EDUCATION: TShowCaseListDetatils[] = [
     },
     date: "2021-2025",
     location: "Paschim Vihar, Delhi",
-  
+    description: "CGPA : 9",
   },
   {
     title: "Higher Secondary School",
@@ -20,7 +19,7 @@ export const EDUCATION: TShowCaseListDetatils[] = [
     },
     date: "2020-2021",
     location: "Vikas Puri, New Delhi",
-    
+    description: "Percentage : 90%",
   },
   {
     title: "Secondary School Education",
@@ -30,6 +29,6 @@ export const EDUCATION: TShowCaseListDetatils[] = [
     },
     date: "2018-2019",
     location: "Vikas Puri, Delhi",
-  
+    description: "Percentage : 85%",
   },
 ];

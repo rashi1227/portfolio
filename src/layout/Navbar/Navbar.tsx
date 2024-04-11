@@ -40,7 +40,7 @@ export default function Navbar(props: TNavbar) {
       <div className="mx-auto flex items-center justify-between lg:max-w-7xl">
         <Link
           href="/"
-          className="flex items-center justify-center drop-shadow-teralight"
+          className="drop-shadow-tealight·flex·items-center·justify-center"
           aria-label="Return to home page"
         >
           <div className="relative h-12 w-28 sm:h-14 sm:w-14 ">
@@ -59,7 +59,7 @@ export default function Navbar(props: TNavbar) {
                     href={_link.href}
                     className={classNames(
                       pathName === _link.href
-                        ? "font-semibold text-black dark:text-zinc-900 dark:hover:text-white hover:bg-teal-500"
+                        ? "font-semibold text-black hover:bg-teal-500 dark:text-teal-900 dark:hover:text-white"
                         : "",
                       "group relative mx-3 rounded-full px-3 py-2 transition-colors duration-200",
                     )}
@@ -76,7 +76,7 @@ export default function Navbar(props: TNavbar) {
                             },
                           },
                         }}
-                        className="absolute inset-0 -z-10 rounded-full bg-tera-500 group-hover:bg-tera-500/80 dark:bg-teal-400 dark:group-hover:bg-teal-500"
+                        className="absolute inset-0 -z-10 rounded-full bg-teal-500 group-hover:bg-teal-500/80 dark:bg-teal-400 dark:group-hover:bg-teal-500"
                       ></motion.span>
                     )}
                     {_link.title}
@@ -123,7 +123,7 @@ export default function Navbar(props: TNavbar) {
                   ))}
                   <ThemeSwitch setClose={setIsModalOpen} />
                 </div>
-                <div className="absolute bottom-0 py-6">©2024 Rashi Aggarwal</div>
+                <div className="absolute bottom-0 py-6">©2024 Rashi</div>
               </Dialog.Panel>
             </Transition.Child>
           </div>

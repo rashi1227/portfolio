@@ -97,7 +97,7 @@ export default function ShowCaseList(props: TShowCaseList) {
   });
   return (
     <div className="mx-auto my-40 max-w-7xl px-6 sm:px-14 md:my-60 md:px-20">
-      <h2 className="md:mb-30 mb-16 w-full bg-gradient-to-r from-teal-400 to-tera-500 bg-clip-text text-center text-3xl font-bold text-transparent dark:from-teal-200 dark:to-teal-500 xs:text-4xl sm:text-6xl md:text-8xl">
+      <h2 className="md:mb-30 to-tera-500 mb-16 w-full bg-gradient-to-r from-teal-400 bg-clip-text text-center text-3xl font-bold text-transparent dark:from-teal-200 dark:to-teal-500 xs:text-4xl sm:text-6xl md:text-8xl">
         {props.title}
       </h2>
       <div ref={ref} className="relative w-full md:mx-auto md:w-[80%]">

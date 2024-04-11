@@ -17,11 +17,7 @@ export const PROJECT_SHOWCASE: ProjectShowcaseListProps[] = [
     index: 1,
     title: "Hoobank",
     href: "/projects",
-    tags: [
-      "Reactjs",
-      "Tailwindcss",
-      "Vercel"
-    ],
+    tags: ["Reactjs", "Tailwindcss", "Vercel"],
     image: {
       LIGHT: "/images/projects/manyGamesLight.webp",
       DARK: "/images/projects/manyGamesDark.webp",
@@ -31,9 +27,9 @@ export const PROJECT_SHOWCASE: ProjectShowcaseListProps[] = [
     index: 2,
     title: "To-Doie",
     href: "/projects",
-    tags: ["HTML" ,"CSS" ,"Javascript"],
+    tags: ["HTML", "CSS", "Javascript"],
     image: {
-      // LIGHT: "/images/projects/kanbanLight.webp",
+      LIGHT: "/images/projects/kanbanDark.webp",
       DARK: "/images/projects/kanbanDark.webp",
     },
   },

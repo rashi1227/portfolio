@@ -59,7 +59,7 @@ export default function Projects() {
               <a
                 href={`${siteMetadata.github}?tab=repositories`}
                 target="_blank"
-                className="font-medium text-tera-500 underline underline-offset-2 hover:text-teal-600 dark:text-teal-400"
+                className="text-tera-500 font-medium underline underline-offset-2 hover:text-teal-600 dark:text-teal-400"
               >
                 Github
               </a>
