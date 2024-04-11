@@ -59,7 +59,7 @@ export default function Navbar(props: TNavbar) {
                     href={_link.href}
                     className={classNames(
                       pathName === _link.href
-                        ? "font-semibold text-white dark:text-zinc-900 dark:hover:text-white"
+                        ? "font-semibold text-black dark:text-zinc-900 dark:hover:text-white hover:bg-teal-500"
                         : "",
                       "group relative mx-3 rounded-full px-3 py-2 transition-colors duration-200",
                     )}

@@ -12,7 +12,7 @@ export const siteMetadata = {
   image: "/static/homepage.png",
   twitterImage: "/static/homepage.png",
   socialBanner: "/static/homepage.png",
-  email: "rashiaggarwal680@gmail.com",
+  email: "rashiaggarwalofficial680@gmail.com",
   github: "https://github.com/rashi1227",
   twitter: "https://twitter.com/_rashi23",
   linkedin: "https://www.linkedin.com/in/rashi-aggarwal-uiuxdesign/",

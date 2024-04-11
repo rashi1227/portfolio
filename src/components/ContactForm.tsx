@@ -99,7 +99,7 @@ export function ContactForm() {
           duration={3000}
           onClose={() => setShowToast((prev) => ({ ...prev, value: false }))}
           className={classNames(
-            "fixed right-4 top-6 z-[9999] rounded-lg bg-teal-500 px-4 py-2 font-semibold text-white shadow-xl",
+            "fixed right-4 top-6 z-[9999]  rounded-lg bg-teal-500 px-4 py-2 font-semibold text-white shadow-xl",
             showToast.type === "PASS"
               ? "bg-teal-500"
               : showToast.type === "RATE_LIMIT"
