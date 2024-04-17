@@ -193,7 +193,7 @@ export function ContactForm() {
                       width="100%"
                       height="100%"
                       viewBox="0 0 23 23"
-                      className="stroke-tera-500 ml-[1px] mt-1 dark:stroke-teal-600"
+                      className="stroke-tera-500·ml-[1px]·mt-1 dark:stroke-teal-600"
                     >
                       <path
                         fill="transparent"
