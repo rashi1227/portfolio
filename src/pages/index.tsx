@@ -1,10 +1,11 @@
 import dynamic from "next/dynamic";
 import Head from "next/head";
 import { NextSeo } from "next-seo";
-import CursorTrailCanvas from "@/components/CursorTrailCanvas";
+// import CursorTrailCanvas from "@/components/CursorTrailCanvas";
 import Hero from "@/components/Hero";
 import { PROJECT_SHOWCASE } from "@/data/projects";
 import { siteMetadata } from "@/data/siteMetaData.mjs";
+import CursorTrailCanvas from "@/components/CursorTrailCanvas";
 
 const Skills = dynamic(() => import("@/components/Skills"), { ssr: true });
 const Project = dynamic(() => import("@/components/ProjectShowcase"), {
@@ -14,10 +15,10 @@ const Project = dynamic(() => import("@/components/ProjectShowcase"), {
 export default function Home() {
   return (
     <>
-      {/* <CursorTrailCanvas
+      <CursorTrailCanvas
         color="hsla(183, 64%, 27%, 0.4)"
         className="pointer-events-none fixed inset-0 -z-10 h-full w-full"
-      /> */}
+      />
       <NextSeo
         title="Rashi Aggarwal | React and Frontend Developer"
         description="Explore the professional portfolio of Rashi, a skilled React and Frontend Developer. Discover innovative projects, expertise in modern web technologies, and a passion for creating seamless user experiences."

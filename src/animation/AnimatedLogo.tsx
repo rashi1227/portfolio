@@ -1,34 +1,110 @@
-import { AnimatePresence, Variants, motion } from "framer-motion";
+import { AnimatePresence, motion } from "framer-motion";
 
 export function AnimatedLogo() {
-  const iconVariant: Variants = {
-    hidden: {
-      pathLength: 0,
-      fill: "rgba(0, 0, 0, 0)",
-    },
-    visible: {
-      pathLength: 1,
-      fill: "#14b8a6",
-    },
+  const iconVariants = {
+    hidden: { opacity: 0, pathLength: 0 },
+    visible: { opacity: 1, pathLength: 1 },
+  };
+
+  const transition = {
+    duration: 2,
+    ease: "easeInOut",
   };
 
   return (
     <AnimatePresence>
       <motion.svg
-        viewBox="0 0 450 450"
+        viewBox="0 0 200 200"
         xmlns="http://www.w3.org/2000/svg"
         className="h-full w-full fill-teal-500 stroke-teal-500 dark:fill-teal-200"
       >
-        <motion.path
-          d="M300  100L200 200L150 100L100 100L100 400C80 400 60 380 60 350L60 150C60 120 80 100 100 100L150 200L200 100Z"
-          strokeWidth="15"
-          variants={iconVariant}
+        <motion.line
+          x1="100"
+          y1="100"
+          x2="100"
+          y2="10"
+          strokeWidth="10" // Increased stroke width for bolder appearance
+          variants={iconVariants}
           initial="hidden"
           animate="visible"
-          transition={{
-            default: { duration: 3, ease: "easeInOut" },
-            fill: { duration: 3, ease: [1, 0, 0.8, 1] },
-          }}
+          transition={transition}
+        />
+        <motion.line
+          x1="100"
+          y1="100"
+          x2="157"
+          y2="157"
+          strokeWidth="10" // Increased stroke width for bolder appearance
+          variants={iconVariants}
+          initial="hidden"
+          animate="visible"
+          transition={transition}
+        />
+        <motion.line
+          x1="100"
+          y1="100"
+          x2="190"
+          y2="100"
+          strokeWidth="10" // Increased stroke width for bolder appearance
+          variants={iconVariants}
+          initial="hidden"
+          animate="visible"
+          transition={transition}
+        />
+        <motion.line
+          x1="100"
+          y1="100"
+          x2="157"
+          y2="43"
+          strokeWidth="10" // Increased stroke width for bolder appearance
+          variants={iconVariants}
+          initial="hidden"
+          animate="visible"
+          transition={transition}
+        />
+        <motion.line
+          x1="100"
+          y1="100"
+          x2="100"
+          y2="190"
+          strokeWidth="10" // Increased stroke width for bolder appearance
+          variants={iconVariants}
+          initial="hidden"
+          animate="visible"
+          transition={transition}
+        />
+        <motion.line
+          x1="100"
+          y1="100"
+          x2="43"
+          y2="157"
+          strokeWidth="10" // Increased stroke width for bolder appearance
+          variants={iconVariants}
+          initial="hidden"
+          animate="visible"
+          transition={transition}
+        />
+        <motion.line
+          x1="100"
+          y1="100"
+          x2="10"
+          y2="100"
+          strokeWidth="10" // Increased stroke width for bolder appearance
+          variants={iconVariants}
+          initial="hidden"
+          animate="visible"
+          transition={transition}
+        />
+        <motion.line
+          x1="100"
+          y1="100"
+          x2="43"
+          y2="43"
+          strokeWidth="10" // Increased stroke width for bolder appearance
+          variants={iconVariants}
+          initial="hidden"
+          animate="visible"
+          transition={transition}
         />
       </motion.svg>
     </AnimatePresence>
