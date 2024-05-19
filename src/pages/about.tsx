@@ -8,10 +8,15 @@ import { EXPERIENCE } from "@/data/experience";
 import { EDUCATION } from "@/data/education";
 import heroProfileImg from "@/public/images/heroProfile.png";
 import { siteMetadata } from "@/data/siteMetaData.mjs";
+import CursorTrailCanvas from "@/components/CursorTrailCanvas";
 
 export default function About() {
   return (
     <>
+      <CursorTrailCanvas
+        color="hsla(183, 64%, 27%, 0.4)"
+        className="pointer-events-none fixed inset-0 -z-10 h-full w-full"
+      />
       <NextSeo
         title="About Rashi | React and Frontend Developer"
         description="Learn more about Rashi Aggarwal, a dedicated React and Frontend Developer with 2 years of experience. Discover the journey, skills, and passion that drive me to create innovative and user-friendly web solutions."

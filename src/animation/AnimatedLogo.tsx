@@ -18,94 +18,102 @@ export function AnimatedLogo() {
         xmlns="http://www.w3.org/2000/svg"
         className="h-full w-full fill-teal-500 stroke-teal-500 dark:fill-teal-200"
       >
-        <motion.line
-          x1="100"
-          y1="100"
-          x2="100"
-          y2="10"
-          strokeWidth="10" // Increased stroke width for bolder appearance
+        {/* Customize the pattern below */}
+        <motion.circle
+          cx="50"
+          cy="50"
+          r="20"
+          strokeWidth="4"
           variants={iconVariants}
           initial="hidden"
           animate="visible"
           transition={transition}
         />
         <motion.line
-          x1="100"
-          y1="100"
-          x2="157"
-          y2="157"
-          strokeWidth="10" // Increased stroke width for bolder appearance
-          variants={iconVariants}
-          initial="hidden"
-          animate="visible"
-          transition={transition}
-        />
-        <motion.line
-          x1="100"
-          y1="100"
-          x2="190"
+          x1="70"
+          y1="50"
+          x2="120"
           y2="100"
-          strokeWidth="10" // Increased stroke width for bolder appearance
+          strokeWidth="4"
+          variants={iconVariants}
+          initial="hidden"
+          animate="visible"
+          transition={transition}
+        />
+        <motion.circle
+          cx="120"
+          cy="100"
+          r="20"
+          strokeWidth="4"
           variants={iconVariants}
           initial="hidden"
           animate="visible"
           transition={transition}
         />
         <motion.line
-          x1="100"
+          x1="120"
           y1="100"
-          x2="157"
-          y2="43"
-          strokeWidth="10" // Increased stroke width for bolder appearance
+          x2="180"
+          y2="50"
+          strokeWidth="4"
+          variants={iconVariants}
+          initial="hidden"
+          animate="visible"
+          transition={transition}
+        />
+        <motion.circle
+          cx="180"
+          cy="50"
+          r="20"
+          strokeWidth="4"
           variants={iconVariants}
           initial="hidden"
           animate="visible"
           transition={transition}
         />
         <motion.line
-          x1="100"
-          y1="100"
-          x2="100"
-          y2="190"
-          strokeWidth="10" // Increased stroke width for bolder appearance
+          x1="180"
+          y1="50"
+          x2="160"
+          y2="150"
+          strokeWidth="4"
+          variants={iconVariants}
+          initial="hidden"
+          animate="visible"
+          transition={transition}
+        />
+        <motion.circle
+          cx="160"
+          cy="150"
+          r="20"
+          strokeWidth="4"
           variants={iconVariants}
           initial="hidden"
           animate="visible"
           transition={transition}
         />
         <motion.line
-          x1="100"
-          y1="100"
-          x2="43"
-          y2="157"
-          strokeWidth="10" // Increased stroke width for bolder appearance
-          variants={iconVariants}
-          initial="hidden"
-          animate="visible"
-          transition={transition}
-        />
-        <motion.line
-          x1="100"
-          y1="100"
-          x2="10"
+          x1="160"
+          y1="150"
+          x2="110"
           y2="100"
-          strokeWidth="10" // Increased stroke width for bolder appearance
+          strokeWidth="4"
           variants={iconVariants}
           initial="hidden"
           animate="visible"
           transition={transition}
         />
-        <motion.line
-          x1="100"
-          y1="100"
-          x2="43"
-          y2="43"
-          strokeWidth="10" // Increased stroke width for bolder appearance
+        <motion.circle
+          cx="110"
+          cy="100"
+          r="20"
+          strokeWidth="4"
           variants={iconVariants}
           initial="hidden"
           animate="visible"
           transition={transition}
         />
+        {/* End of customization */}
       </motion.svg>
     </AnimatePresence>
   );

@@ -6,7 +6,7 @@ export const siteMetadata = {
   language: "en-us",
   theme: "light",
   siteName: "rashi.me",
-  siteUrl: "https://rashi.me",
+  siteUrl: "https://rashi-portfolio-nine.vercel.app",
   siteRepo: "https://github.com/rashi1227",
   siteLogo: "/favicon.ico",
   image: "/static/homepage.png",

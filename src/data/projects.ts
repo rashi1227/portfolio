@@ -25,12 +25,12 @@ export const PROJECT_SHOWCASE: ProjectShowcaseListProps[] = [
   },
   {
     index: 2,
-    title: "To-Doie",
+    title: "Number Crunch",
     href: "/projects",
-    tags: ["HTML", "CSS", "Javascript"],
+    tags: ["HTML", "CSS", "Javascript", "React"],
     image: {
       LIGHT: "/images/projects/kanbanDark.webp",
-      DARK: "/images/projects/kanbanDark.webp",
+      DARK: "/images/projects/kanbanCardLight.webp",
     },
   },
 ];
@@ -49,17 +49,17 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
     liveWebsiteHref: "https://firebase-files-app-six.vercel.app/Login",
   },
   {
-    name: "To-Doie",
+    name: "Number Crunch",
     favicon: "/images/projects/logos/kanban.ico",
     imageUrl: [
       // "/images/projects/kanbanLight.webp",
+      "/images/projects/kanbanCardLight.webp",
       "/images/projects/kanbanDark.webp",
-      // "/images/projects/kanbanCardLight.webp",
     ],
     description:
-      "The Todo project is a straightforward task management app where users can create, organize, and track tasks easily.",
-    sourceCodeHref: "https://github.com/rashi1227/to-do-list",
-    liveWebsiteHref: "https://to-doie.vercel.app",
+      "The Number Crunch game gives challenges to solve the mathematical operations for cognitive development.",
+    sourceCodeHref: "https://github.com/rashi1227/Number-crunch-challenge",
+    liveWebsiteHref: "https://number-crunch-chaleenge.vercel.app",
   },
   {
     name: "HooBank",
